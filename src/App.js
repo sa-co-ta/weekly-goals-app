@@ -20,7 +20,7 @@ function App() {
   const removeCard = (id) => {
     setGoal((prevGoal) => {
       return prevGoal.filter((goal) => {
-        return id != goal.id
+        return id !== goal.id
       })
     })
   }
@@ -38,7 +38,7 @@ function App() {
     <section className="section">
       <main className="app">
         <Nav openModal={openModal} />
-        <GoalList props={goals} removeClick={removeCard} />
+        <GoalList props={goals} removeCard={removeCard} />
       </main>
       {showModal && <Modal closeModal={closeModal} addGoal={addGoal} />}
     </section>

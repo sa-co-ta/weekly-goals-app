@@ -1,5 +1,5 @@
 const GitBtn = () => (
-  <a href="https://github.com/sa-co-ta" target="_blank">
+  <a href="https://github.com/sa-co-ta" target="_blank" rel="noreferrer">
     <button className="btn">
       <p>Newbie dev, rate my code:</p>
       <svg
