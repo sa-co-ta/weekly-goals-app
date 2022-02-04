@@ -1,0 +1,52 @@
+.btn {
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: var(--lilac);
+  background-color: var(--dark-fill);
+  font-family: var(--space);
+  width: 36rem;
+  height: 5.6rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5rem;
+  align-items: center;
+  border-radius: var(--round);
+  border: 1px solid var(--border-purple);
+  cursor: pointer;
+  transition: 150ms;
+}
+
+.btn:hover {
+  background-color: var(--card-fill);
+}
+
+.nav {
+  background-color: var(--dark-fill);
+  border: 1px solid var(--border-purple);
+  border-radius: var(--radius);
+  height: 13.7rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: var(--padding);
+}
+
+.nav__h1 {
+  color: var(--alt-white);
+  font-family: var(--inter);
+  font-size: 3.2rem;
+  line-height: 0.9;
+  margin-right: auto;
+}
+
+.btn--add-a-goal {
+  background-color: var(--lilac);
+  font-family: var(--space);
+  font-size: 1.6rem;
+  border: 1px solid var(--border-purple);
+  border-radius: var(--round);
+  color: var(--alt-white);
+  width: 32rem;
+  height: 5.6rem;
+  cursor: pointer;
+}

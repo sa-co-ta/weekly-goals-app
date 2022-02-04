@@ -1,0 +1,39 @@
+.nav__days {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.6rem;
+}
+
+.day__h1 {
+  color: var(--alt-white);
+  font-size: 1.6rem;
+  border: 1px solid var(--neon-purple);
+  width: 3.6rem;
+  height: 3.6rem;
+  display: flex;
+  border-radius: var(--round);
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 300ms;
+}
+
+.today__h1 {
+  color: var(--alt-white);
+  background-color: var(--neon-purple);
+  font-size: 1.6rem;
+  width: 3.6rem;
+  height: 3.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border-radius: var(--round);
+  cursor: pointer;
+  transition: 300ms;
+}
+
+.day__h1:hover,
+.today__h1:hover {
+  opacity: 0.5;
+}
