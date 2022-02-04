@@ -1,5 +1,9 @@
 const GitBtn = () => (
-  <a href="https://github.com/sa-co-ta" target="_blank" rel="noreferrer">
+  <a
+    href="https://github.com/sa-co-ta/weekly-goals-app"
+    target="_blank"
+    rel="noreferrer"
+  >
     <button className="btn">
       <p>Newbie dev, rate my code:</p>
       <svg
